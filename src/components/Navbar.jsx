@@ -14,10 +14,10 @@ const Navbar = () => {
 
   return (
     <div className="absolute top-0 w-full flex justify-between p-4 items-center">
-      <h1 className="text-white font-bold text-2xl z-20">Lala Land</h1>
+      <h1 className="text-white top-0 font-display font-bold text-2xl z-20">Lala Land</h1>
       <HiOutlineMenu
         onClick={handleNav}
-        className="z-20 text-white cursor-pointer"
+        className="z-20 text-white cursor-pointer md:hidden"
         size={25}
       />
       <div
@@ -28,10 +28,10 @@ const Navbar = () => {
         }
       >
         <ul className="pt-8 flex flex-col w-full items-center justify-center ">
-          <li className="font-bold text-xl p-8">Destination</li>
-          <li className="font-bold text-xl p-8">Reservation</li>
-          <li className="font-bold text-xl p-8">Home</li>
-          <li className="font-bold text-xl p-8">Rooms</li>
+          <li className="font-display font-bold text-xl p-8">Destination</li>
+          <li className="font-display ont-bold text-xl p-8">Reservation</li>
+          <li className="font-display font-bold text-xl p-8">Home</li>
+          <li className="font-display font-bold text-xl p-8">Rooms</li>
         </ul>
       </div>
     </div>
